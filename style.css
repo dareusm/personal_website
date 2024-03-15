@@ -1,9 +1,13 @@
+body{
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
 .navbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: green;
 }
 
 .navbar li{
@@ -22,6 +26,18 @@
     background-color: #111;
 }
 
+#introduction{
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    margin-top: 30px;
+}
+
+.intro-first-column, .intro-second-column{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 .skills-section-text{
     display: flex;
     flex-direction: row;
